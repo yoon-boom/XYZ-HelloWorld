@@ -7,3 +7,8 @@ def my_pods
 source 'https://github.com/CocoaPods/Specs.git'
 pod 'AFNetworking', :git => 'https://github.com/yoon-boom/AFNetworking.git', :branch=> '2.x'
 end
+
+target 'XYZ-HelloWorld' do
+    project XYZ-HelloWorld
+    my_pods
+end
