@@ -9,6 +9,6 @@ pod 'AFNetworking', :git => 'https://github.com/yoon-boom/AFNetworking.git', :br
 end
 
 target 'XYZ-HelloWorld' do
-    project XYZ-HelloWorld
+    project 'XYZ-HelloWorld'
     my_pods
 end
