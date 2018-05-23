@@ -35,7 +35,31 @@
 }
 
 - (void)testC {
-    NSAssert(true == false, @".should be true == true!");
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testD {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testE {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testF {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testG {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testH {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testI {
+    NSAssert(true == true, @".should be true == true!");
 }
 
 @end
