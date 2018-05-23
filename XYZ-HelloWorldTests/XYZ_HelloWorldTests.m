@@ -24,17 +24,18 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testA {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     NSLog(@"HELLO WORLD!");
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testB {
+    NSAssert(true == true, @".should be true == true!");
+}
+
+- (void)testC {
+    NSAssert(true == false, @".should be true == true!");
 }
 
 @end
