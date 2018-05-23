@@ -36,7 +36,7 @@
 }
 
 - (void)testC {
-    NSAssert(true == true, @".should be true == true!");
+    NSAssert(true == false, @".should be true == true!");
 }
 
 - (void)testD {
@@ -48,7 +48,7 @@
 }
 
 - (void)testF {
-    NSAssert(true == true, @".should be true == true!");
+    NSAssert(true == false, @".should be true == true!");
 }
 
 - (void)testG {
