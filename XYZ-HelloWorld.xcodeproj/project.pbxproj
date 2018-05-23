@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4DA10A24D4C4D7F367C1D91 /* Pods_XYZ_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D7D6FF30D955EE075B131A /* Pods_XYZ_HelloWorld.framework */; };
 		DE3E677220B4CBA800888211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E677120B4CBA800888211 /* AppDelegate.m */; };
 		DE3E677520B4CBA800888211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E677420B4CBA800888211 /* ViewController.m */; };
 		DE3E677820B4CBA800888211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3E677620B4CBA800888211 /* Main.storyboard */; };
@@ -14,9 +15,23 @@
 		DE3E677D20B4CBA800888211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3E677B20B4CBA800888211 /* LaunchScreen.storyboard */; };
 		DE3E678020B4CBA800888211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E677F20B4CBA800888211 /* main.m */; };
 		DE3E678B20B4E40E00888211 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DE3E678A20B4E40D00888211 /* Podfile */; };
+		DE3E679320B4E8D100888211 /* XYZ_HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E679220B4E8D100888211 /* XYZ_HelloWorldTests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE3E679520B4E8D100888211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3E676520B4CBA800888211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3E676C20B4CBA800888211;
+			remoteInfo = "XYZ-HelloWorld";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		035DB09E905156F547BDC1E4 /* Pods-XYZ-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZ-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		127E50BA9D09DDB4EAAA3923 /* Pods-XYZ-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZ-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D7D6FF30D955EE075B131A /* Pods_XYZ_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZ_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3E676D20B4CBA800888211 /* XYZ-HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYZ-HelloWorld.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3E677020B4CBA800888211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE3E677120B4CBA800888211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +43,21 @@
 		DE3E677E20B4CBA800888211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3E677F20B4CBA800888211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE3E678A20B4E40D00888211 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DE3E679020B4E8D100888211 /* XYZ-HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XYZ-HelloWorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3E679220B4E8D100888211 /* XYZ_HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZ_HelloWorldTests.m; sourceTree = "<group>"; };
+		DE3E679420B4E8D100888211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DE3E676A20B4CBA800888211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA10A24D4C4D7F367C1D91 /* Pods_XYZ_HelloWorld.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3E678D20B4E8D100888211 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,12 +67,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A989E03E44EE88B474C16651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				127E50BA9D09DDB4EAAA3923 /* Pods-XYZ-HelloWorld.debug.xcconfig */,
+				035DB09E905156F547BDC1E4 /* Pods-XYZ-HelloWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCF3D4A10A34F6DF368193A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D7D6FF30D955EE075B131A /* Pods_XYZ_HelloWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE3E676420B4CBA800888211 = {
 			isa = PBXGroup;
 			children = (
 				DE3E678A20B4E40D00888211 /* Podfile */,
 				DE3E676F20B4CBA800888211 /* XYZ-HelloWorld */,
+				DE3E679120B4E8D100888211 /* XYZ-HelloWorldTests */,
 				DE3E676E20B4CBA800888211 /* Products */,
+				A989E03E44EE88B474C16651 /* Pods */,
+				CCF3D4A10A34F6DF368193A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DE3E676D20B4CBA800888211 /* XYZ-HelloWorld.app */,
+				DE3E679020B4E8D100888211 /* XYZ-HelloWorldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +121,15 @@
 			path = "XYZ-HelloWorld";
 			sourceTree = "<group>";
 		};
+		DE3E679120B4E8D100888211 /* XYZ-HelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3E679220B4E8D100888211 /* XYZ_HelloWorldTests.m */,
+				DE3E679420B4E8D100888211 /* Info.plist */,
+			);
+			path = "XYZ-HelloWorldTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE3E678320B4CBA800888211 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorld" */;
 			buildPhases = (
+				B78DBB0B0A38C2960EE58355 /* [CP] Check Pods Manifest.lock */,
 				DE3E676920B4CBA800888211 /* Sources */,
 				DE3E676A20B4CBA800888211 /* Frameworks */,
 				DE3E676B20B4CBA800888211 /* Resources */,
+				D18D4F7F59B23B1C92E3A2F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,6 +151,24 @@
 			productName = "XYZ-HelloWorld";
 			productReference = DE3E676D20B4CBA800888211 /* XYZ-HelloWorld.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DE3E678F20B4E8D100888211 /* XYZ-HelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3E679920B4E8D100888211 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorldTests" */;
+			buildPhases = (
+				DE3E678C20B4E8D100888211 /* Sources */,
+				DE3E678D20B4E8D100888211 /* Frameworks */,
+				DE3E678E20B4E8D100888211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3E679620B4E8D100888211 /* PBXTargetDependency */,
+			);
+			name = "XYZ-HelloWorldTests";
+			productName = "XYZ-HelloWorldTests";
+			productReference = DE3E679020B4E8D100888211 /* XYZ-HelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +182,11 @@
 					DE3E676C20B4CBA800888211 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					DE3E678F20B4E8D100888211 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE3E676C20B4CBA800888211;
 					};
 				};
 			};
@@ -123,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */,
+				DE3E678F20B4E8D100888211 /* XYZ-HelloWorldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +221,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE3E678E20B4E8D100888211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B78DBB0B0A38C2960EE58355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYZ-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18D4F7F59B23B1C92E3A2F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE3E676920B4CBA800888211 /* Sources */ = {
@@ -152,7 +280,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE3E678C20B4E8D100888211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3E679320B4E8D100888211 /* XYZ_HelloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE3E679620B4E8D100888211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */;
+			targetProxy = DE3E679520B4E8D100888211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE3E677620B4CBA800888211 /* Main.storyboard */ = {
@@ -280,6 +424,7 @@
 		};
 		DE3E678420B4CBA800888211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127E50BA9D09DDB4EAAA3923 /* Pods-XYZ-HelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +439,7 @@
 		};
 		DE3E678520B4CBA800888211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035DB09E905156F547BDC1E4 /* Pods-XYZ-HelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +449,36 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yoonlee.XYZ-HelloWorld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE3E679720B4E8D100888211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G89XQ9R38;
+				INFOPLIST_FILE = "XYZ-HelloWorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoonlee.XYZ-HelloWorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYZ-HelloWorld.app/XYZ-HelloWorld";
+			};
+			name = Debug;
+		};
+		DE3E679820B4E8D100888211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G89XQ9R38;
+				INFOPLIST_FILE = "XYZ-HelloWorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoonlee.XYZ-HelloWorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYZ-HelloWorld.app/XYZ-HelloWorld";
 			};
 			name = Release;
 		};
@@ -323,6 +499,15 @@
 			buildConfigurations = (
 				DE3E678420B4CBA800888211 /* Debug */,
 				DE3E678520B4CBA800888211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3E679920B4E8D100888211 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3E679720B4E8D100888211 /* Debug */,
+				DE3E679820B4E8D100888211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

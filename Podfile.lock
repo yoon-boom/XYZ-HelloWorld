@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/yoon-boom/AFNetworking.git`, branch `2.x`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :branch: 2.x
+    :git: https://github.com/yoon-boom/AFNetworking.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: b86ebbdcc81bbb953e0edc998aa792ab1d9e96fa
+    :git: https://github.com/yoon-boom/AFNetworking.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 4e7e2ee63993f6aa0bbad6f8bb7641d9bfa85652
+
+PODFILE CHECKSUM: abc0d1fc4bcde2cbccce376ca6b6210c0981d76d
+
+COCOAPODS: 1.5.2
