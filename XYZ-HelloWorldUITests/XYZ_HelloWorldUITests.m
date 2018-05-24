@@ -1,8 +1,8 @@
 //
 //  XYZ_HelloWorldUITests.m
-//  XYZ-HelloWorldTests
+//  XYZ-HelloWorldUITests
 //
-//  Created by Yoon Lee on 5/23/18.
+//  Created by Yoon Lee on 5/24/18.
 //  Copyright © 2018 Yoon Lee. All rights reserved.
 //
 
@@ -23,7 +23,7 @@
     self.continueAfterFailure = NO;
     // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
     [[[XCUIApplication alloc] init] launch];
-
+    
     // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
 }
 
@@ -32,7 +32,7 @@
     [super tearDown];
 }
 
-- (void)testForScreenshots {
+- (void)testExample {
     NSAssert(true == true, @".should be true == true!");
 }
 
