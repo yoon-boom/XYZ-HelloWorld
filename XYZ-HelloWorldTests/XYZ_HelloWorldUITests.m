@@ -33,7 +33,7 @@
 }
 
 - (void)testForScreenshots {
-    XCTAssertNil(<#expression, ...#>);
+    NSAssert(true == true, @".should be true == true!");
 }
 
 @end
