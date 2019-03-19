@@ -38,6 +38,21 @@
                BlueprintName = "XYZ-HelloWorldTests"
                ReferencedContainer = "container:XYZ-HelloWorld.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "XYZ_HelloWorldUITests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DE0B946220B769640058CED9"
+               BuildableName = "XYZ-HelloWorldUITests.xctest"
+               BlueprintName = "XYZ-HelloWorldUITests"
+               ReferencedContainer = "container:XYZ-HelloWorld.xcodeproj">
+            </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>

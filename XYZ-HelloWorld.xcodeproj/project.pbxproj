@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4DA10A24D4C4D7F367C1D91 /* Pods_XYZ_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D7D6FF30D955EE075B131A /* Pods_XYZ_HelloWorld.framework */; };
+		DE0B946620B769640058CED9 /* XYZ_HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0B946520B769640058CED9 /* XYZ_HelloWorldUITests.m */; };
 		DE3E677220B4CBA800888211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E677120B4CBA800888211 /* AppDelegate.m */; };
 		DE3E677520B4CBA800888211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E677420B4CBA800888211 /* ViewController.m */; };
 		DE3E677820B4CBA800888211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3E677620B4CBA800888211 /* Main.storyboard */; };
@@ -19,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DE0B946820B769640058CED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3E676520B4CBA800888211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3E676C20B4CBA800888211;
+			remoteInfo = "XYZ-HelloWorld";
+		};
 		DE3E679520B4E8D100888211 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE3E676520B4CBA800888211 /* Project object */;
@@ -32,6 +40,9 @@
 		035DB09E905156F547BDC1E4 /* Pods-XYZ-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZ-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		127E50BA9D09DDB4EAAA3923 /* Pods-XYZ-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZ-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYZ-HelloWorld/Pods-XYZ-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D7D6FF30D955EE075B131A /* Pods_XYZ_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZ_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0B946320B769640058CED9 /* XYZ-HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XYZ-HelloWorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0B946520B769640058CED9 /* XYZ_HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZ_HelloWorldUITests.m; sourceTree = "<group>"; };
+		DE0B946720B769640058CED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3E676D20B4CBA800888211 /* XYZ-HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYZ-HelloWorld.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3E677020B4CBA800888211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE3E677120B4CBA800888211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE0B946020B769640058CED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE3E676A20B4CBA800888211 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,12 +102,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE0B946420B769640058CED9 /* XYZ-HelloWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B946520B769640058CED9 /* XYZ_HelloWorldUITests.m */,
+				DE0B946720B769640058CED9 /* Info.plist */,
+			);
+			path = "XYZ-HelloWorldUITests";
+			sourceTree = "<group>";
+		};
 		DE3E676420B4CBA800888211 = {
 			isa = PBXGroup;
 			children = (
 				DE3E678A20B4E40D00888211 /* Podfile */,
 				DE3E676F20B4CBA800888211 /* XYZ-HelloWorld */,
 				DE3E679120B4E8D100888211 /* XYZ-HelloWorldTests */,
+				DE0B946420B769640058CED9 /* XYZ-HelloWorldUITests */,
 				DE3E676E20B4CBA800888211 /* Products */,
 				A989E03E44EE88B474C16651 /* Pods */,
 				CCF3D4A10A34F6DF368193A3 /* Frameworks */,
@@ -101,6 +129,7 @@
 			children = (
 				DE3E676D20B4CBA800888211 /* XYZ-HelloWorld.app */,
 				DE3E679020B4E8D100888211 /* XYZ-HelloWorldTests.xctest */,
+				DE0B946320B769640058CED9 /* XYZ-HelloWorldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +162,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE0B946220B769640058CED9 /* XYZ-HelloWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0B946A20B769640058CED9 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorldUITests" */;
+			buildPhases = (
+				DE0B945F20B769640058CED9 /* Sources */,
+				DE0B946020B769640058CED9 /* Frameworks */,
+				DE0B946120B769640058CED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0B946920B769640058CED9 /* PBXTargetDependency */,
+			);
+			name = "XYZ-HelloWorldUITests";
+			productName = "XYZ-HelloWorldUITests";
+			productReference = DE0B946320B769640058CED9 /* XYZ-HelloWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE3E678320B4CBA800888211 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorld" */;
@@ -179,6 +226,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Yoon Lee";
 				TargetAttributes = {
+					DE0B946220B769640058CED9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE3E676C20B4CBA800888211;
+					};
 					DE3E676C20B4CBA800888211 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -205,11 +257,19 @@
 			targets = (
 				DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */,
 				DE3E678F20B4E8D100888211 /* XYZ-HelloWorldTests */,
+				DE0B946220B769640058CED9 /* XYZ-HelloWorldUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE0B946120B769640058CED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE3E676B20B4CBA800888211 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +330,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE0B945F20B769640058CED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0B946620B769640058CED9 /* XYZ_HelloWorldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE3E676920B4CBA800888211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +359,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DE0B946920B769640058CED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */;
+			targetProxy = DE0B946820B769640058CED9 /* PBXContainerItemProxy */;
+		};
 		DE3E679620B4E8D100888211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DE3E676C20B4CBA800888211 /* XYZ-HelloWorld */;
@@ -318,6 +391,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE0B946B20B769640058CED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G89XQ9R38;
+				INFOPLIST_FILE = "XYZ-HelloWorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoonlee.XYZ-HelloWorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XYZ-HelloWorld";
+			};
+			name = Debug;
+		};
+		DE0B946C20B769640058CED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G89XQ9R38;
+				INFOPLIST_FILE = "XYZ-HelloWorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoonlee.XYZ-HelloWorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XYZ-HelloWorld";
+			};
+			name = Release;
+		};
 		DE3E678120B4CBA800888211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,6 +586,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE0B946A20B769640058CED9 /* Build configuration list for PBXNativeTarget "XYZ-HelloWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B946B20B769640058CED9 /* Debug */,
+				DE0B946C20B769640058CED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DE3E676820B4CBA800888211 /* Build configuration list for PBXProject "XYZ-HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
